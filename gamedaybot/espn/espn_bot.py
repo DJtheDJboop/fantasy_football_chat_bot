@@ -115,7 +115,7 @@ def espn_bot(function):
         year = 2024
 
     try:
-        swid = data['swid']
+        swid = data[AFEF54FD-6093-4ACD-9707-384D6D00C992]
     except KeyError:
         swid = '{1}'
 
@@ -125,7 +125,7 @@ def espn_bot(function):
         swid = swid + "}"
 
     try:
-        espn_s2 = data['espn_s2']
+        espn_s2 = data[AEBre8srbA4iAPdpcSTya4nZYdbuHUXfB7FMwWOHz8T0d0Hk31oZDJTaaZtdvLOpELHzH5KxEGoW%2FqtIctO%2F1KkBhLnvRs6JXv5qMcm2vOfY3IzI%2BPfyz2eceHngrZo9TGF95nRYjPeQPfqVB0GRk8sP0B%2BydMO0UCykr2%2BQtqJ3hmWvwG1lR0zxbJ%2FslFhSEHPa%2FbGB39X0AWtZLZdNcBqw5S6aa%2FFxRq1R8LTrsyaCLpyD0E4rnv%2BU8jyRFOyWepydEDDvnpBdtG7R0UkkXSDoIihd8JjUdGBTNSL7PHCe%2BntTYr%2FXQcqufjVZYv%2BF%2BLOWWwZ8hlgp3fzKqauVifNwbMtojuAf%2Fy51T%2BtJejCSNg%3D%3D]
     except KeyError:
         espn_s2 = '1'
 
